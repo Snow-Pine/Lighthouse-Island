@@ -1,0 +1,48 @@
+header{
+    background-color: #869dc7;
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    line-height: 200%;
+    font-family: fantasy, 'Franklin Gothic Medium', 'Arial Narrow';
+    font-size: 45px;
+}
+.tabletflex{
+    display: flex;
+    margin: 20px;
+}
+main{
+    background-color:white;
+}
+aside{
+    background-color: white;
+    padding: 20px;
+}
+nav{
+    background-color: lightskyblue;
+    text-align: center;
+    padding: 10px;
+}
+nav a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: pink;
+    line-height: 300%;
+    color: white;
+    padding: 0 10px;
+    margin: 0 20px;
+}
+h2{
+    color: #869dc7;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+footer{
+    line-height: 200%;
+    background-color: #869dc7;
+    color: darkblue;
+    text-align: center;
+}
