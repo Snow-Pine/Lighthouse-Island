@@ -1,12 +1,16 @@
 header{
     background-color: #869dc7;
-    display: flex;
-    flex-direction: row-reverse;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: 
+        "h1 image";
 }
 header img{
+    grid-area: image;
     transform: scaleX(-1);
 }
 h1{
+    grid-area: h1;
     line-height: 100%;
     padding-left: 1em;
     color: darkblue;
@@ -21,10 +25,6 @@ nav a{
     font-size: x-large;
     color: white;
     border-bottom: 1px solid white;
-}
-.tabletflex{
-    margin-top: 1em;
-    padding: 0 1em;
 }
 h2{
     color: #869dc7;
